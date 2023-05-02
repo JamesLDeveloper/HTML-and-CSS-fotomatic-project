@@ -117,6 +117,10 @@ header .mobile {
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
+  padding: 10.625rem 0 10.625rem 6.25rem;
+  background-image: url("../images/banner-landingpage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sign-up-cta {
@@ -305,7 +309,6 @@ max-width: 24%;
 height: auto;
 display: inline-block;
 object-fit: cover;
-
 }
 
 @media only screen and (max-width: 760px) {
