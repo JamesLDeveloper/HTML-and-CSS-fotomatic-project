@@ -221,6 +221,8 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  height: 635px;
+  overflow: hidden;
 }
 
 .feature .image-container {
@@ -296,6 +298,14 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+}
+
+#filters-section .image-container {
+max-width: 24%;
+height: auto;
+display: inline-block;
+object-fit: cover;
+
 }
 
 @media only screen and (max-width: 760px) {
